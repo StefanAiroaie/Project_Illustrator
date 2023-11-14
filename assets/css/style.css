@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Marriweather-Regular";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+
+
+:root {
+
+    --main-font: "Marriweather-Regular";
+    --second-font: ;
+
+}
