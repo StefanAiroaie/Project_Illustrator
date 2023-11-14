@@ -47,7 +47,7 @@ h2 {
 }
 
 /* global p */
-p {
+* p {
     font-family: var(--main-font);
     color: var(--text-2-color);
     font-size: 1rem;
@@ -90,8 +90,11 @@ main img:hover {
     gap: 30px;
 }
 
-.hero h2,
-p {
+.infos h2 {
+    text-align: left;
+}
+
+.infos p {
     text-align: left;
 }
 
@@ -156,11 +159,7 @@ main {
     padding: 3rem;
 }
 
-main p {
-    width: 80vw;
-    /* border: 3px solid yellow; */
-    margin: auto;
-}
+
 
 
 
@@ -176,6 +175,9 @@ main p {
 
 }
 
+
+
+/*  */
 .photos img {
     width: 30%;
     height: 40%;
@@ -200,16 +202,11 @@ main p {
 }
 
 
-/* .photos_exemples .photo_size .eimg{
-
-    background-image: url(../img/illustration7.jpg);
-    background-size: cover;
-} */
-
-/* }
-.exemples .photos img{
-    width: 50%;
-} */
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
 
 
 .buy p {
@@ -218,6 +215,42 @@ main p {
     margin: auto;
 }
 
+
+.membership {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #55ACEE1A;
+    padding-top: 3rem;
+
+
+}
+
+.membership ul {
+    list-style: none;
+    text-align: center;
+    padding: 0.5 rem;
+
+}
+
+.membership .preis {
+    font-size: 4rem;
+    padding: 2rem 0 3rem 0;
+
+}
+
+button {
+    width: 200px;
+    background-color: #55ACEE;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+}
 
 
 /*  
@@ -228,3 +261,38 @@ linear-gradient(0deg, #55ACEE, #55ACEE),
 linear-gradient(0deg, #C4302B, #C4302B),
 linear-gradient(0deg, #FCAF45, #FCAF45);
 */
+
+
+/* start footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+}
+
+footer a:nth-child(1) {
+    color: var(--text-1-color);
+}
+
+footer a:nth-child(2) {
+    color: #FCAF45;
+}
+
+footer a:nth-child(3) {
+    color: #55ACEE;
+}
+
+footer a:nth-child(4) {
+    color: #C4302B;
+}
+
+
+
+/* 
+background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, #3B5998, #3B5998),
+linear-gradient(0deg, #55ACEE, #55ACEE),
+linear-gradient(0deg, #C4302B, #C4302B),
+linear-gradient(0deg, #FCAF45, #FCAF45); */
