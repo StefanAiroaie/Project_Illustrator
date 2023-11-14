@@ -21,8 +21,8 @@
     --main-font: "Marriweather-Regular";
     --second-font: "Lato";
 
-        /* html main colors */
-        --text-1-color: black;
+    /* html main colors */
+    --text-1-color: black;
     --text-2-color: #202020;
     --text-3-color: #7E7E7E;
 
@@ -39,10 +39,11 @@ a {
 h2 {
     font-family: var(--main-font);
     color: var(--text-1-color);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 2.5rem;
     text-align: center;
+    padding: 1rem;
 }
 
 /* global p */
@@ -51,7 +52,7 @@ p {
     color: var(--text-2-color);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 39px;
+    line-height: 1.5rem;
     text-align: center;
     padding: 1rem;
 
@@ -89,23 +90,64 @@ main img:hover {
     gap: 30px;
 }
 
+.hero h2,
+p {
+    text-align: left;
+}
+
 .hero img {
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: 23rem;
 }
 
 .hero article {
     width: 80vw;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 
 }
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text {
+    width: 35vw;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.buttons a {
+    border: 2px solid var(--text-2-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: var(--second-font);
+}
+
+.buttons a:first-child {
+    background-color: var(--text-2-color);
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
 
 
 
 /* 2 teil gennant main */
 
 main {
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     justify-content: center;
     display: flex;
     width: 100vw;
@@ -116,23 +158,17 @@ main {
 
 main p {
     width: 80vw;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     margin: auto;
 }
 
 
-.illustration p {
-
-    border: 3px solid gray;
-
-
-}
 
 /* section illustration */
 .photos {
     display: flex;
     flex-direction: row;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     justify-content: center;
     justify-content: space-between;
     flex-direction: row;
@@ -142,7 +178,7 @@ main p {
 
 .photos img {
     width: 30%;
-    height: 30%;
+    height: 40%;
 }
 
 
@@ -178,7 +214,7 @@ main p {
 
 .buy p {
     width: 50%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     margin: auto;
 }
 
