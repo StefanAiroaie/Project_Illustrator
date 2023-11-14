@@ -10,10 +10,54 @@
 }
 
 
-
 :root {
 
+    /* html main fonts */
     --main-font: "Marriweather-Regular";
-    --second-font: ;
+
+    /* html main colors */
+    --text-1-color: black;
+    --text-2-color: #202020;
+    --text-3-color: #7E7E7E;
+
+
+
 
 }
+
+
+
+h2 {
+    font-family: var(--main-font);
+    color: var(--text-1-color);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: var(--main-font);
+    color: var(--text-2-color);
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 39px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  
+membership colors
+background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, #3B5998, #3B5998),
+linear-gradient(0deg, #55ACEE, #55ACEE),
+linear-gradient(0deg, #C4302B, #C4302B),
+linear-gradient(0deg, #FCAF45, #FCAF45);
+*/
