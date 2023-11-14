@@ -20,31 +20,92 @@
     --text-2-color: #202020;
     --text-3-color: #7E7E7E;
 
-
-
-
 }
 
-
-
+/* global h2 -header */
 h2 {
     font-family: var(--main-font);
     color: var(--text-1-color);
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    text-align: center;
 }
 
-h2 {
+/* global p */
+p {
     font-family: var(--main-font);
     color: var(--text-2-color);
     font-size: 19.2px;
     font-weight: 400;
     line-height: 39px;
+    text-align: center;
 
 }
 
 
+
+/*  1. section, genant: hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.hero article {
+    width: 80vw;
+    border: 3px solid green;
+
+}
+
+
+
+/* 2 teil gennant main */
+
+main {
+    border: 3px solid orange;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+main p{
+    width: 80%;
+    border: 3px solid yellow;
+    margin: auto;
+}
+
+
+.illustration p{
+
+    border: 3px solid gray;
+
+
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+    justify-content: center;
+    flex-direction: row;
+    flex: auto;
+
+}
+
+.photos img{
+    width: 30%;
+    height: 30%;
+}
 
 
 
